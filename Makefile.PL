@@ -7,7 +7,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     'NAME'	=> 'LEGO::Colors',
-    'VERSION_FROM' => 'Colors.pm', # finds $VERSION
+    'VERSION_FROM' => 'lib/LEGO/Colors.pm', # finds $VERSION
     'dist'        => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
 );
 

@@ -1,7 +1,10 @@
 Changes
+lib/LEGO/Color.pm
+lib/LEGO/Colors.pm
 Makefile.PL
-README
-Colors.pm
-Color.pm
-test.pl
 MANIFEST
+README
+t/basic.t
+t/pod_cover.t
+t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)

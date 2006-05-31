@@ -6,7 +6,7 @@
 # Change 1..1 below to 1..last_test_to_print .
 # (It may become useful if the test is moved to ./t subdirectory.)
 
-BEGIN { $| = 1; print "1..46\n"; }
+BEGIN { $| = 1; print "1..48\n"; }
 END {print "not ok 1\n" unless $loaded;}
 use LEGO::Color;
 use LEGO::Colors;
@@ -35,7 +35,7 @@ ok( $pearl->get_blue()  == 133,                11);
 
 # Testing failure return status
 my $undef = LEGO::Colors->get_color('plop');
-ok(!defined($undef), 13);
+ok(!defined($undef), 12);
 
 # Testing default system
 my $red = LEGO::Colors->get_color(
@@ -71,7 +71,7 @@ ok( $lime->get_green() == 171,          26);
 ok( $lime->get_blue()  == 5,            27);
 
 # Testing color name inheritance
-my $red = LEGO::Colors->get_color(
+$red = LEGO::Colors->get_color(
 	name     => 'darkred',
 	'system' => 'bricklink',
 );

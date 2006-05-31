@@ -6,7 +6,7 @@ use warnings;
 
 use LEGO::Color;
 
-our $VERSION = "0.1";
+our $VERSION = "0.2";
 
 ## Class data
 
@@ -353,7 +353,7 @@ in your local installation and thus provide any desired color naming system.
 
 =head1 AUTHOR
 
-Copyright 2004 Avi Finkel <F<avi@finkel.org>>
+Copyright 2006 Avi Finkel <F<avi@finkel.org>>
 
 This package is free software and is provided "as is" without express
 or implied warranty.  It may be used, redistributed and/or modified
@@ -362,5 +362,5 @@ http://www.perl.com/perl/misc/Artistic.html)
 
 LEGO® is a trademark of the LEGO Group of companies which does
 not sponsor, authorize or endorse this software.
-The official Lego website is at L<http://www.lego.com/>
+The official LEGO website is at L<http://www.lego.com/>
 =cut
