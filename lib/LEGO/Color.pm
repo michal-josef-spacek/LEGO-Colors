@@ -4,6 +4,8 @@ require 5;
 use strict;
 use warnings;
 
+our $VERSION = '0.3';
+
 ## Class methods
 
 # The constructor method.  It's very simple.
