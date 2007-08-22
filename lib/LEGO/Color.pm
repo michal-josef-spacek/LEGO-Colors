@@ -4,8 +4,6 @@ require 5;
 use strict;
 use warnings;
 
-our $VERSION = "0.2";
-
 ## Class methods
 
 # The constructor method.  It's very simple.
@@ -120,7 +118,7 @@ information.
 
 =item new
 
-Constructs a new Color object.  Takes 4 cwnamed parameters, all required.
+Constructs a new Color object.  Takes 4 named parameters, all required.
 They are: name, red, blue and green, and hopefully self-explanatory.  Returns
 undef if any parameters are missing or invalid.
 
@@ -170,7 +168,7 @@ RGB values of this color object.
 
 =head1 AUTHOR
 
-Copyright 2006 Avi Finkel <F<avi@finkel.org>>
+Copyright 2007 Avi Finkel <F<avi@finkel.org>>
 
 This package is free software and is provided "as is" without express
 or implied warranty.  It may be used, redistributed and/or modified

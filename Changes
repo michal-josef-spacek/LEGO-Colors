@@ -9,3 +9,7 @@ Version 0.2 : 5/31/06 01:28
 
 	 Fixing some tests
    General reorginization
+
+Version 0.3 : 8/22/07 01:43
+
+   Changing makefile to do better dependency definition

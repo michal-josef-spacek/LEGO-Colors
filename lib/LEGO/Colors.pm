@@ -6,7 +6,7 @@ use warnings;
 
 use LEGO::Color;
 
-our $VERSION = "0.2";
+our $VERSION = "0.3";
 
 ## Class data
 
@@ -353,7 +353,7 @@ in your local installation and thus provide any desired color naming system.
 
 =head1 AUTHOR
 
-Copyright 2006 Avi Finkel <F<avi@finkel.org>>
+Copyright 2007 Avi Finkel <F<avi@finkel.org>>
 
 This package is free software and is provided "as is" without express
 or implied warranty.  It may be used, redistributed and/or modified
