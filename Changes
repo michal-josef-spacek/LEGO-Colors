@@ -13,3 +13,7 @@ Version 0.2 : 5/31/06 01:28
 Version 0.3 : 8/22/07 01:43
 
    Changing makefile to do better dependency definition
+
+Version 0.3 : 8/27/07 19:07
+
+   Screwed up the MANIFEST before.  Oops.
