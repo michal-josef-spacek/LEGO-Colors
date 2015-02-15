@@ -22,7 +22,7 @@ sub new {
 		warn("Argument 'name' missing from parameters in construction");
 	}
 	for my $color (qw/red blue green/) {
-		unless ($options{$color}) {
+		unless (exists $options{$color}) {
 			warn("Argument '$color' missing from parameters in construction");
 			return undef;
 		}
