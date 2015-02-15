@@ -6,7 +6,7 @@ use warnings;
 
 use LEGO::Color;
 
-our $VERSION = "0.4";
+our $VERSION = "0.5";
 
 ## Class data
 
