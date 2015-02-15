@@ -1,25 +1,21 @@
 Change file for LEGO::Colors
 Avi Finkel <avi@finkel.org>
 
-Version 0.1 : 3/20/04 04:26
+0.5
+ - Fixed encoding in doc.
+ - Fixed requirement check of constructor parameters.
+ - Rewrited Changes file to CPAN::Changes::SPEC stanadard.
+ - Updated Makefile.PL.
 
-   No changes -- initial release
+0.4 2007-08-27T19:07
+ - Screwed up the MANIFEST before.  Oops.
 
-Version 0.2 : 5/31/06 01:28
+0.3 2007-08-22T01:43
+ - Changing makefile to do better dependency definition
 
-	 Fixing some tests
-   General reorginization
+0.2 2006-05-31T04:26
+ - Fixing some tests
+ - General reorginization
 
-Version 0.3 : 8/22/07 01:43
-
-   Changing makefile to do better dependency definition
-
-Version 0.4 : 8/27/07 19:07
-
-   Screwed up the MANIFEST before.  Oops.
-
-Versio  0.5
-
-   Fixed encoding in doc.
-   Fixed requirement check of constructor parameters.
-   Updated Makefile.PL.
+0.1 2004-03-20T04:26
+ - No changes -- initial release
