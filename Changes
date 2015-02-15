@@ -20,4 +20,5 @@ Version 0.4 : 8/27/07 19:07
 
 Versio  0.5
 
+   Fixed encoding in doc.
    Updated Makefile.PL.

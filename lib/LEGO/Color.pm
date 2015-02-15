@@ -87,6 +87,8 @@ sub _is_numeric {
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 LEGO::Colors - Access to LEGO color information.

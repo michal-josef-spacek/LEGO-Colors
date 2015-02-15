@@ -176,6 +176,8 @@ sub _normalize {
 
 __DATA__
 
+=encoding utf8
+
 =head1 NAME
 
 LEGO::Colors - Set of LEGO Color data
