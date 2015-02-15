@@ -1,11 +1,19 @@
+# Pragmas.
+use strict;
+use warnings;
+
+# Modules.
 use inc::Module::Install;
 
+# Definition.
+abstract 'Set of LEGO Color data';
+author 'Avi Finkel <avi@finkel.org>';
+license 'artistic';
 name 'LEGO-Colors';
-all_from 'lib/LEGO/Colors.pm';
+requires 'Test::Pod' => 1.26;
+requires 'Test::Pod::Coverage' => 1.08;
+requires 'Pod::Coverage' => 0.18;
+version '0.4';
 
-build_requires('Test::Pod' => 1.26);
-build_requires('Test::Pod::Coverage' => 1.08);
-build_requires('Pod::Coverage' => 0.18);
-
-auto_install;
-WriteAll;
+# Run.
+WriteAll();
